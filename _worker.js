@@ -6144,7 +6144,12 @@ function renderHomePage(proxySettings, hostName, isPassSet) {
             </div>
             <hr>
             <div class="footer">
+              <i class="fa fa-github" style="font-size:36px; margin-right: 10px;"></i>
                 <span>⭐ KZ ⭐</span>
+                <button id="openModalBtn" class="button">Change Password</button>
+                <button type="button" id="logout" style="background: none; color: var(--color); margin: 0; border: none; cursor: pointer;">
+                  <i class="fa fa-power-off fa-2x" aria-hidden="true"></i>
+                </button>
             </div>
         </div>
         <button id="darkModeToggle" class="floating-button">
